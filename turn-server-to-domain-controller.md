@@ -45,9 +45,10 @@ Install-ADDSForest `
 -LogPath "C:\Windows\NTDS" `
 -SysvolPath "C:\Windows\SYSVOL" `
 -Force
+```
 
 
-# Step 5: Verify the Domain Controller ✅
+## Step 5: Verify the Domain Controller ✅
 
 After setting up my Domain Controller, I verified that everything was working correctly using both the **command line** and **Active Directory tools**.
 
@@ -55,10 +56,10 @@ After setting up my Domain Controller, I verified that everything was working co
 ## Using Command Line 🖥️
 
 ```cmd
-whoami # Shows the logged-in user and domain
-net accounts # Checks account policies
-systeminfo # Displays detailed server information
-
+whoami # Shows the logged-in user and domain `
+net accounts # Checks account policies `
+systeminfo # Displays detailed server information `
+```
 
 ## Using Active Directory Tools 🛠️
 
